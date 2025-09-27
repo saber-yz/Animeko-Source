@@ -24,12 +24,12 @@
 							"selectNames": ".search-box .thumb-content > .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".module-tab-content  span",
@@ -38,12 +38,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -52,7 +52,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -63,10 +63,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 2
+					}，
+					"tier": 0
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -85,17 +85,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": "div.video-info-header > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": "body > div.box-width > div > div >div > div:nth-child(2) h3 ",
 							"selectLinks": "body > div.box-width > div > div >div > div:nth-child(2) > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".anthology-tab > .swiper-wrapper a",
@@ -104,12 +104,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": ".anthology-list-play a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "(第\\s*(?<ep>.+)\\s*[话集])|1080P"
-						},
+						}，
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -118,7 +118,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "$^",
@@ -129,10 +129,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
+					}，
 					"tier": 0
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -156,12 +156,12 @@
 							"selectNames": ".fed-part-layout .fed-deta-info h1.fed-part-eone",
 							"selectLinks": ".fed-part-layout > .fed-deta-info h1.a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": "body .fed-part-case .fed-tabs-boxs li.fed-play-btns a",
@@ -170,12 +170,12 @@
 							"selectEpisodesFromList": ".fed-col-lg1 a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": ".fed-drop-boxs .fed-part-rows .fed-col-lg1 a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -184,7 +184,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -195,10 +195,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 3
+					}，
+					"tier": 0
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -217,17 +217,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": ".box-width a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".search-box .thumb-content .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".anthology-tab  .swiper-wrapper a",
@@ -236,12 +236,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -250,7 +250,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -261,10 +261,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
+					}，
 					"tier": 1
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -283,17 +283,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": "#container div.blockcontent1 div.cell_imform  a.cell_imform_name",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".search-box .thumb-content > .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": "ul#menu0 > li",
@@ -302,12 +302,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -316,7 +316,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -327,10 +327,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 2
+					}，
+					"tier": 1
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -349,17 +349,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": "body > div.sear_box > div.sear_con > div> div > div > div.result_title > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".search-box .thumb-content > .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": "#play div.con_juji_bg div.playlist-tab ul li.tab-switch a",
@@ -368,12 +368,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": ".con_c2_list > li > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "720P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -382,7 +382,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -393,10 +393,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 2
+					}，
+					"tier": 1
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -415,17 +415,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": ".detail-info > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".detail-info>a",
 							"selectLinks": "herf",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".anthology-tab > .swiper-wrapper a",
@@ -434,12 +434,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -448,7 +448,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -459,8 +459,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 3
+					}，
+					"tier": 1
 				}
 			},
 			{
@@ -481,17 +481,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": ".module-card-item>.module-card-item-info>.module-card-item-title>a",
 							"preferShorterName": false
-						},
+						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": "body .module-card-item .module-card-item-title > a",
 							"selectLinks": "body .module-card-item .module-card-item-footer + a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".module-tab-items-box>.module-tab-item>span",
@@ -500,12 +500,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -514,7 +514,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -525,10 +525,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 3
+					}，
+					"tier": 1
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -547,17 +547,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": ".stui-vodlist__media>.active>.detail>h3>a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": "",
 							"selectLinks": ".search-box .thumb-menu > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".stui-pannel-box .nav-tabs>li>a",
@@ -566,12 +566,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "720P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -580,7 +580,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -591,10 +591,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 4
+					}，
+					"tier": 1
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -613,17 +613,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": ".video-info>.video-info-header>h3>a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".search-box .thumb-content > .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu > a",
 							"preferShorterName": true
-						},
+						}，
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".module-tab-content>.module-tab-item>span",
@@ -632,12 +632,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						},
+						}，
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -646,7 +646,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -657,10 +657,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 4
+					}，
+					"tier": 1
 				}
-			},
+			}，
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -689,7 +689,7 @@
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						},
+						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": "#liebiao > font:nth-child(1)",
@@ -712,7 +712,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						},
+						}，
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -723,8 +723,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 4
+					}，
+					"tier": 1
 				}
 			}
 		]
