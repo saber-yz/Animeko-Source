@@ -1,6 +1,7 @@
 {
 	"exportedMediaSourceDataList": {
-		"mediaSources": [{
+		"mediaSources": [
+			{
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
