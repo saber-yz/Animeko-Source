@@ -8,4 +8,5 @@ Animeko订阅源自用
 
 2.原始链接(速度慢，但是更新快啊)：https://github.com/saber-yz/Animeko-Source/raw/main/Animeko-SourceWeb.json
 
-3.加速链接（新）https://raw.githubusercontent.com/saber-yz/Animeko-Source/main/Animeko-SourceWeb.json
+3.加速链接（新）:https://gh-proxy.com/https://github.com/saber-yz/Animeko-Source/raw/main/Animeko-SourceWeb.json
+
