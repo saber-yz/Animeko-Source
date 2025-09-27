@@ -1,8 +1,6 @@
 {
 	"exportedMediaSourceDataList": {
-		"mediaSources": [
-
-			{
+		"mediaSources": [{
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
@@ -25,12 +23,12 @@
 							"selectNames": ".search-box .thumb-content > .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu > a",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						}，
+						},
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".module-tab-content  span",
@@ -39,12 +37,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						}，
+						},
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						}，
+						},
 						"defaultResolution": "1080P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -53,7 +51,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						}，
+						},
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -64,11 +62,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}，
+					},
 					"tier": 2
 				}
-			}，
-
+			},
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -135,7 +132,6 @@
 					"tier": 0
 				}
 			},
-
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -187,7 +183,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						}，
+						},
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -198,11 +194,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}，
+					},
 					"tier": 3
 				}
-			}，
-
+			},
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -221,17 +216,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": ".box-width a",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".search-box .thumb-content .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu a",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						}，
+						},
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".anthology-tab  .swiper-wrapper a",
@@ -269,7 +264,6 @@
 					"tier": 1
 				}
 			},
-
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -336,7 +330,6 @@
 					"tier": 2
 				}
 			},
-
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -355,17 +348,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": "body > div.sear_box > div.sear_con > div> div > div > div.result_title > a",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".search-box .thumb-content > .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu > a",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						}，
+						},
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": "#play div.con_juji_bg div.playlist-tab ul li.tab-switch a",
@@ -379,7 +372,7 @@
 							"selectEpisodes": ".con_c2_list > li > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						}，
+						},
 						"defaultResolution": "720P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -399,11 +392,10 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}，
+					},
 					"tier": 2
 				}
-			}，
-
+			},
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -422,17 +414,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": ".detail-info > a",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".detail-info>a",
 							"selectLinks": "herf",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						}，
+						},
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": ".anthology-tab > .swiper-wrapper a",
@@ -470,7 +462,6 @@
 					"tier": 3
 				}
 			},
-
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -537,7 +528,6 @@
 					"tier": 3
 				}
 			},
-
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -604,7 +594,6 @@
 					"tier": 4
 				}
 			},
-
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -671,7 +660,6 @@
 					"tier": 4
 				}
 			},
-
 			{
 				"factoryId": "web-selector",
 				"version": 2,
@@ -723,7 +711,7 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						}，
+						},
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
@@ -734,7 +722,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}，
+					},
 					"tier": 4
 				}
 			}
