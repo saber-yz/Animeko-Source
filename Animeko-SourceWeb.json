@@ -688,7 +688,7 @@
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						}，
+						},
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": "#liebiao > font:nth-child(1)",
