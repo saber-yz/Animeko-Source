@@ -1,7 +1,7 @@
 {
-  "exportedMediaSourceDataList": {
-    "mediaSources": [
-{
+	"exportedMediaSourceDataList": {
+		"mediaSources": [
+			{
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
@@ -63,8 +63,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 2
+					}
 				}
 			},
 			{
@@ -129,8 +128,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 0
+					}
 				}
 			},
 			{
@@ -195,8 +193,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 3
+					}
 				}
 			},
 			{
@@ -261,8 +258,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
 				}
 			},
 			{
@@ -327,8 +323,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 2
+					}
 				}
 			},
 			{
@@ -393,8 +388,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 2
+					}
 				}
 			},
 			{
@@ -459,8 +453,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 3
+					}
 				}
 			},
 			{
@@ -525,8 +518,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 3
+					}
 				}
 			},
 			{
@@ -591,8 +583,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 4
+					}
 				}
 			},
 			{
@@ -613,6 +604,71 @@
 						"selectorSubjectFormatA": {
 							"selectLists": ".video-info>.video-info-header>h3>a",
 							"preferShorterName": true
+						},
+						"selectorSubjectFormatIndexed": {
+							"selectNames": ".search-box .thumb-content > .thumb-txt",
+							"selectLinks": ".search-box .thumb-menu > a",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatJsonPathIndexed": {
+							"selectLinks": "$[*]['url', 'link']",
+							"selectNames": "$[*]['title','name']",
+							"preferShorterName": true
+						},
+						"channelFormatId": "index-grouped",
+						"selectorChannelFormatFlattened": {
+							"selectChannelNames": ".module-tab-content>.module-tab-item>span",
+							"matchChannelName": "^(?<ch>.+?)(\\d+)?$",
+							"selectEpisodeLists": ".module-blocklist>.scroll-content",
+							"selectEpisodesFromList": "a",
+							"selectEpisodeLinksFromList": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"selectorChannelFormatNoChannel": {
+							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
+							"selectEpisodeLinks": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"defaultResolution": "1080P",
+						"defaultSubtitleLanguage": "CHS",
+						"onlySupportsPlayers": [],
+						"filterByEpisodeSort": true,
+						"filterBySubjectName": true,
+						"selectMedia": {
+							"distinguishSubjectName": true,
+							"distinguishChannelName": true
+						},
+						"matchVideo": {
+							"enableNestedUrl": true,
+							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
+							"matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)",
+							"cookies": "quality=1080",
+							"addHeadersToVideo": {
+								"referer": "",
+								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							}
+						}
+					}
+				}
+			},
+			{
+				"factoryId": "web-selector",
+				"version": 2,
+				"arguments": {
+					"name": "中国动漫网",
+					"description": "",
+					"iconUrl": "https://www.2kdm.org/favicon.ico",
+					"searchConfig": {
+						"searchUrl": "https://www.2kdm.org/search.php?searchword={keyword}",
+						"searchUseOnlyFirstWord": false,
+						"searchRemoveSpecial": true,
+						"searchUseSubjectNamesCount": 1,
+						"rawBaseUrl": "",
+						"requestInterval": 3000,
+						"subjectFormatId": "a",
+						"selectorSubjectFormatA": {
+							"selectLists": "#cont_pub > dl> dd:nth-child(2) > div > a",
+							"preferShorterName": true
 						}，
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".search-box .thumb-content > .thumb-txt",
@@ -626,9 +682,9 @@
 						}，
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
-							"selectChannelNames": ".module-tab-content>.module-tab-item>span",
+							"selectChannelNames": "#liebiao > font:nth-child(1)",
 							"matchChannelName": "^(?<ch>.+?)(\\d+)?$",
-							"selectEpisodeLists": ".module-blocklist>.scroll-content",
+							"selectEpisodeLists": ".playList",
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
@@ -638,7 +694,7 @@
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
 						}，
-						"defaultResolution": "1080P",
+						"defaultResolution": "720P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
 						"filterByEpisodeSort": true,
@@ -646,19 +702,21 @@
 						"selectMedia": {
 							"distinguishSubjectName": true,
 							"distinguishChannelName": true
-						}，
+						},
 						"matchVideo": {
 							"enableNestedUrl": true,
 							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
-							"matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)",
+							"matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mp4)|(\\.mkv)|(\\.m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)|(.+player/\\?url=(?<v>[^&]+\\.m3u8))",
 							"cookies": "quality=1080",
 							"addHeadersToVideo": {
-								"referer": "",
+								"referer": "{baseUrl}",
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}，
-					"tier": 4
+					}
+					
 				}
 			}
-    ]}}
+		]
+	}
+}
