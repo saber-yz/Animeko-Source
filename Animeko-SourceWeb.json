@@ -4,7 +4,7 @@
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
-					"name": "mx动漫发布页mxdm.tv",
+					"name": "mx动漫mxdm.tv",
 					"description": "",
 					"iconUrl": "https://cdn.yinghuazy.xyz/webjs/mxdm/logo.png",
 					"searchConfig": {
@@ -62,14 +62,15 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
-					"name": "girigiri爱动漫发布页girigirilove.top",
+					"name": "girigiri爱动漫girigirilove.top",
 					"description": "",
 					"iconUrl": "https://ani.girigirilove.com/guanggao/fdd2694db66628a9deadd86e50aedd43.png",
 					"searchConfig": {
@@ -127,7 +128,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
@@ -192,7 +194,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
@@ -257,14 +260,15 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
-					"name": "NT动漫发布页ntdm.fans",
+					"name": "NT动漫ntdm.fans",
 					"description": "",
 					"iconUrl": "https://cdn.yinghuazy.xyz/webjs/ntdm8/image/favicon.ico",
 					"searchConfig": {
@@ -322,7 +326,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
@@ -387,14 +392,15 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
-					"name": "发布页-稀饭动漫.com",
+					"name": "-稀饭动漫.com",
 					"description": "",
 					"iconUrl": "https://framerusercontent.com/images/NgiibALYIJzAIATjEkV9kHBE.png",
 					"searchConfig": {
@@ -452,14 +458,15 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
-					"name": "(有里番)发布页omofun111.top",
+					"name": "(有里番)omofun111.top",
 					"description": "",
 					"iconUrl": "https://enlienli.link/upload/mxprocms/20230707-1/49f4b8a7fd5cbf77ffcfa7a52e755675.gif",
 					"searchConfig": {
@@ -517,7 +524,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
@@ -582,7 +590,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
@@ -647,7 +656,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 				}
 			},
 			{
@@ -712,8 +722,273 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					}
+					},
+					"tier": 2
 
+				}
+			},
+			{
+				"factoryId": "web-selector",
+				"version": 2,
+				"arguments": {
+					"name": "樱花动漫88dm.fans",
+					"description": "",
+					"iconUrl": "https://www.295yhw.com/static/images/touxiang.png",
+					"searchConfig": {
+						"searchUrl": "https://www.295yhw.com/search/-------------.html?wd={keyword}&submit=",
+						"searchUseOnlyFirstWord": true,
+						"searchRemoveSpecial": true,
+						"searchUseSubjectNamesCount": 1,
+						"rawBaseUrl": "",
+						"requestInterval": 3000,
+						"subjectFormatId": "a",
+						"selectorSubjectFormatA": {
+							"selectLists": ".hl-item-div >.hl-item-pic>a",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatIndexed": {
+							"selectNames": ".search-box .thumb-content > .thumb-txt",
+							"selectLinks": ".search-box .thumb-menu > a",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatJsonPathIndexed": {
+							"selectLinks": "$[*]['url', 'link']",
+							"selectNames": "$[*]['title','name']",
+							"preferShorterName": true
+						},
+						"channelFormatId": "index-grouped",
+						"selectorChannelFormatFlattened": {
+							"selectChannelNames": ".hl-plays-from>a",
+							"matchChannelName": "^(?<ch>.+?)(\\d+)?$",
+							"selectEpisodeLists": "#hl-plays-list",
+							"selectEpisodesFromList": "a",
+							"selectEpisodeLinksFromList": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"selectorChannelFormatNoChannel": {
+							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
+							"selectEpisodeLinks": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"defaultResolution": "1080P",
+						"defaultSubtitleLanguage": "CHS",
+						"onlySupportsPlayers": [],
+						"filterByEpisodeSort": true,
+						"filterBySubjectName": false,
+						"selectMedia": {
+							"distinguishSubjectName": true,
+							"distinguishChannelName": true
+						},
+						"matchVideo": {
+							"enableNestedUrl": true,
+							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
+							"matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mp4)|(\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)|(/m3u8.php)",
+							"cookies": "quality=1080",
+							"addHeadersToVideo": {
+								"referer": "",
+								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							}
+						}
+					},
+					"tier": 2
+				}
+			},
+			{
+				"factoryId": "web-selector",
+				"version": 2,
+				"arguments": {
+					"name": "嗷呜动漫cdn.aowudm.com",
+					"description": "",
+					"iconUrl": "https://video-snapshot01.pddpic.com/sprite-obs-bd/2025-09-12/2b732294-1b3b-4fb9-8f1a-1171c73d9440.png",
+					"searchConfig": {
+						"searchUrl": "https://www.aowu.tv/search/-------------.html?wd={keyword}",
+						"searchUseOnlyFirstWord": true,
+						"searchRemoveSpecial": true,
+						"searchUseSubjectNamesCount": 1,
+						"rawBaseUrl": "",
+						"requestInterval": 3000,
+						"subjectFormatId": "a",
+						"selectorSubjectFormatA": {
+							"selectLists": ".detail-info>a",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatIndexed": {
+							"selectNames": ".vod-playerUrl>a",
+							"selectLinks": "herf",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatJsonPathIndexed": {
+							"selectLinks": "$[*]['url', 'link']",
+							"selectNames": "$[*]['title','name']",
+							"preferShorterName": true
+						},
+						"channelFormatId": "index-grouped",
+						"selectorChannelFormatFlattened": {
+							"selectChannelNames": ".anthology-tab > .swiper-wrapper a",
+							"matchChannelName": "^(?<ch>.+?)(\\d+)?$",
+							"selectEpisodeLists": ".anthology-list-box",
+							"selectEpisodesFromList": "a",
+							"selectEpisodeLinksFromList": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"selectorChannelFormatNoChannel": {
+							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
+							"selectEpisodeLinks": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"defaultResolution": "1080P",
+						"defaultSubtitleLanguage": "CHS",
+						"onlySupportsPlayers": [],
+						"filterByEpisodeSort": true,
+						"filterBySubjectName": true,
+						"selectMedia": {
+							"distinguishSubjectName": true,
+							"distinguishChannelName": true
+						},
+						"matchVideo": {
+							"enableNestedUrl": true,
+							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
+							"matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mp4)|(\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)|.m3u8|v16.toutiao50.com",
+							"cookies": "quality=1080",
+							"addHeadersToVideo": {
+								"referer": "",
+								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							}
+						}
+					},
+					"tier": 2
+				}
+			},
+			{
+				"factoryId": "web-selector",
+				"version": 2,
+				"arguments": {
+					"name": "AGE动漫www.age.tv",
+					"description": "",
+					"iconUrl": "https://cdn.aiqingyu1314.com/age/statics/images/avatar.jpg?v=2025062101",
+					"searchConfig": {
+						"searchUrl": "https://www.agedm.io/search?query={keyword}",
+						"searchUseOnlyFirstWord": true,
+						"searchRemoveSpecial": true,
+						"searchUseSubjectNamesCount": 1,
+						"rawBaseUrl": "",
+						"requestInterval": 3000,
+						"subjectFormatId": "a",
+						"selectorSubjectFormatA": {
+							"selectLists": ".video_cover_wrapper>a",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatIndexed": {
+							"selectNames": ".video_cover_wrapper",
+							"selectLinks": ".video_btns>.btn-secondary>href",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatJsonPathIndexed": {
+							"selectLinks": "$[*]['url', 'link']",
+							"selectNames": "$[*]['title','name']",
+							"preferShorterName": true
+						},
+						"channelFormatId": "index-grouped",
+						"selectorChannelFormatFlattened": {
+							"selectChannelNames": ".nav-item",
+							"matchChannelName": "^(?<ch>.+?)(\\d+)?$",
+							"selectEpisodeLists": ".video_detail_episode",
+							"selectEpisodesFromList": "a",
+							"selectEpisodeLinksFromList": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"selectorChannelFormatNoChannel": {
+							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
+							"selectEpisodeLinks": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"defaultResolution": "1080P",
+						"defaultSubtitleLanguage": "CHS",
+						"onlySupportsPlayers": [],
+						"filterByEpisodeSort": true,
+						"filterBySubjectName": true,
+						"selectMedia": {
+							"distinguishSubjectName": true,
+							"distinguishChannelName": true
+						},
+						"matchVideo": {
+							"enableNestedUrl": true,
+							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
+							"matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mp4)|(\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)|v16-muscdn.toutiao50.com",
+							"cookies": "quality=1080",
+							"addHeadersToVideo": {
+								"referer": "",
+								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							}
+						}
+					},
+					"tier": 2
+				}
+			},
+			{
+				"factoryId": "web-selector",
+				"version": 2,
+				"arguments": {
+					"name": "aki动漫home.akianime.com",
+					"description": "",
+					"iconUrl": "https://home.akianime.com/asset/logo.png",
+					"searchConfig": {
+						"searchUrl": "https://www.akifun.cc/bgmsearch/-------------.html?wd={keyword}",
+						"searchUseOnlyFirstWord": true,
+						"searchRemoveSpecial": true,
+						"searchUseSubjectNamesCount": 1,
+						"rawBaseUrl": "",
+						"requestInterval": 3000,
+						"subjectFormatId": "a",
+						"selectorSubjectFormatA": {
+							"selectLists": ".detail-info>a",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatIndexed": {
+							"selectNames": ".vod-playerUrl>a",
+							"selectLinks": "herf",
+							"preferShorterName": true
+						},
+						"selectorSubjectFormatJsonPathIndexed": {
+							"selectLinks": "$[*]['url', 'link']",
+							"selectNames": "$[*]['title','name']",
+							"preferShorterName": true
+						},
+						"channelFormatId": "index-grouped",
+						"selectorChannelFormatFlattened": {
+							"selectChannelNames": ".anthology-tab > .swiper-wrapper>a",
+							"matchChannelName": "^(?<ch>.+?)(\\d+)?$",
+							"selectEpisodeLists": ".anthology-list-box",
+							"selectEpisodesFromList": "a",
+							"selectEpisodeLinksFromList": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"selectorChannelFormatNoChannel": {
+							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
+							"selectEpisodeLinks": "",
+							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+						},
+						"defaultResolution": "1080P",
+						"defaultSubtitleLanguage": "CHS",
+						"onlySupportsPlayers": [],
+						"filterByEpisodeSort": true,
+						"filterBySubjectName": true,
+						"selectMedia": {
+							"distinguishSubjectName": true,
+							"distinguishChannelName": true
+						},
+						"matchVideo": {
+							"enableNestedUrl": true,
+							"matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
+							"matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mp4)|(\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)|.m3u8",
+							"cookies": "quality=1080",
+							"addHeadersToVideo": {
+								"referer": "https://www.akifun.cc/",
+								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							}
+						}
+					},
+					"tier": 2
 				}
 			}
 		]
