@@ -1,7 +1,6 @@
 {
 	"exportedMediaSourceDataList": {
-		"mediaSources": [
-			{
+		"mediaSources": [{
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
@@ -63,8 +62,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 0
+					}
 				}
 			},
 			{
@@ -129,8 +127,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 0
+					}
 				}
 			},
 			{
@@ -195,8 +192,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 0
+					}
 				}
 			},
 			{
@@ -261,8 +257,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
 				}
 			},
 			{
@@ -327,8 +322,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
 				}
 			},
 			{
@@ -393,8 +387,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
 				}
 			},
 			{
@@ -459,8 +452,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
 				}
 			},
 			{
@@ -525,8 +517,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
 				}
 			},
 			{
@@ -591,8 +582,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
 				}
 			},
 			{
@@ -657,8 +647,7 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
 				}
 			},
 			{
@@ -679,17 +668,17 @@
 						"selectorSubjectFormatA": {
 							"selectLists": "#cont_pub > dl> dd:nth-child(2) > div > a",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatIndexed": {
 							"selectNames": ".search-box .thumb-content > .thumb-txt",
 							"selectLinks": ".search-box .thumb-menu > a",
 							"preferShorterName": true
-						}，
+						},
 						"selectorSubjectFormatJsonPathIndexed": {
 							"selectLinks": "$[*]['url', 'link']",
 							"selectNames": "$[*]['title','name']",
 							"preferShorterName": true
-						}，
+						},
 						"channelFormatId": "index-grouped",
 						"selectorChannelFormatFlattened": {
 							"selectChannelNames": "#liebiao > font:nth-child(1)",
@@ -698,12 +687,12 @@
 							"selectEpisodesFromList": "a",
 							"selectEpisodeLinksFromList": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						}，
+						},
 						"selectorChannelFormatNoChannel": {
 							"selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
 							"selectEpisodeLinks": "",
 							"matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-						}，
+						},
 						"defaultResolution": "720P",
 						"defaultSubtitleLanguage": "CHS",
 						"onlySupportsPlayers": [],
@@ -723,8 +712,8 @@
 								"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 							}
 						}
-					},
-					"tier": 1
+					}
+
 				}
 			}
 		]
